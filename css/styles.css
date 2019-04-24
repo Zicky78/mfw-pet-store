@@ -34,7 +34,26 @@ footer a:hover {
 	border: 1px solid black;
 }
 
-.nav-pills > li.active > a {
+.nav-pills > li.active > a,
+.btn-lg {
 	background-color: #eeddcd;
 	color: #5c433f;
+}
+
+.btn-lg {
+	border: 1px solid black;
+	width: 100%;
+}
+
+.product {
+	background-color: #eeddcd;
+	padding-top: 10px;
+	border-radius: 5px;
+	margin: 5px;
+	width: calc(33.33333333% - 10px);
+}
+
+.btn-xs {
+	background-color: #fff;
+	border: 1px solid black;
 }
