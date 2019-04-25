@@ -134,62 +134,91 @@
 					</div>
 				</div>
 
-				<!-- NEW CODE -->
-
-				<div class="col-sm-4 col-sm-offset-1 text-center">
-					<div class="row">
-						<div class="col-sm-12">
-							<h2>SERVICES</h2>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<button class="btn btn-lg">
-									ADOPT A CAT
-								</button>
-							</div>
-							<div class="row">
-								<div class="col-sm-8 col-sm-offset-2">
-									<p>
-										Lorem ipsum dolor sit amet
-										consectetur adipisicing elit.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<button class="btn btn-lg">
-									ADOPT A DOG
-								</button>
-							</div>
-							<div class="row">
-								<div class="col-sm-8 col-sm-offset-2">
-									<p>
-										Lorem ipsum dolor sit amet
-										consectetur adipisicing elit.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-8 col-sm-offset-2">
-								<button class="btn btn-lg">
-									ADOPT A FISH
-								</button>
-							</div>
-							<div class="row">
-								<div class="col-sm-8 col-sm-offset-2">
-									<p>
-										Lorem ipsum dolor sit amet
-										consectetur adipisicing elit.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<aside class="col-sm-3 col-sm-offset-2">
+					<h2 class="text-center text-uppercase">Services</h2>
+					<ul class="nav nav-pills nav-stacked text-center">
+						<li role="presentation">
+							<a href="#" class="text-uppercase"
+								>Adopt a Cat
+							</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit.
+							</p>
+						</li>
+						<li role="presentation">
+							<a href="#" class="text-uppercase"
+								>Adopt a Dog
+							</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur,
+								adipisicing elit.
+							</p>
+						</li>
+						<li role="presentation">
+							<a href="#" class="text-uppercase"
+								>Adopt a Penguin
+							</a>
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit.
+							</p>
+						</li>
+					</ul>
+				</aside>
 			</div>
 		</section>
+
+		<!-- footer.container-fluid>(.row.centered>(.col-xs-6.col-sm-1.col-sm-offset-1>img[src=img/petstore_logo.png][alt="Pet Store Logo"].logo)+(.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>a{Pet Store}>br>{Fresno, Ca}>br+a{info@petstore.com}))) -->
+
+		<footer class="container-fluid">
+			<div class="row centered">
+				<div class="col-xs-6 col-sm-1 col-sm-offset-1">
+					<img
+						src="img/petstore_logo.png"
+						alt="Pet Store Logo"
+						class="logo"
+					/>
+				</div>
+				<div class="col-xs-6 col-sm-3 col-sm-offset-2 contact_info">
+					<address>
+						<a href="#">
+							Pet Store
+							<br />
+							Fresno, Ca<br /> </a
+						><a href="#">info@petstore.com</a>
+					</address>
+				</div>
+
+				<!-- (.col-sm-2.social>(a>i.fab.fa-+span.hidden-xs+br.hidden-xs)*3) -->
+
+				<div class="col-sm-2 social">
+					<a href="#">
+						<i class="fab fa-facebook"></i>
+						<span class="hidden-xs">Facebook</span>
+						<br class="hidden-xs" />
+					</a>
+					<a href="#">
+						<i class="fab fa-twitter"></i>
+						<span class="hidden-xs">Twitter</span>
+						<br class="hidden-xs" />
+					</a>
+					<a href="#">
+						<i class="fab fa-linkedin"></i>
+						<span class="hidden-xs">LinkedIn</span>
+						<br class="hidden-xs" />
+					</a>
+				</div>
+			</div>
+
+			<!-- .row>.col-sm-12.fine_print.text-center>p{&copy; Pet Store, Inc. All rights reserved.} -->
+
+			<div class="row">
+				<div class="col-sm-12 fine_print text-center">
+					<p>&copy; Pet Store, Inc. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
 
 		<!-- scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
